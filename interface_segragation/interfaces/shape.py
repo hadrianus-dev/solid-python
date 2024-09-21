@@ -5,5 +5,6 @@ class IShape(ABC):
     def get_area(self) -> int:
         pass
 
+    @abstractmethod
     def get_perimeter(self) -> int:
         pass

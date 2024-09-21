@@ -1,1 +1,1 @@
-from .shape import IShape
+from shape import IShape

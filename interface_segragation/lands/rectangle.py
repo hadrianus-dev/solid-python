@@ -1,5 +1,4 @@
 from interface_segragation.interfaces.shape import IShape
-
 class LandRectangle(IShape):
     def __init__(self, width: int, height: int) -> None:
         self.width = width

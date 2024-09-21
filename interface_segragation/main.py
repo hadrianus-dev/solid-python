@@ -1,6 +1,6 @@
 from .lands.rectangle import LandRectangle
-from .lands.square import LandSquare
-from .Engineer import Engineer
+from lands.square import LandSquare
+from Engineer import Engineer
 
 my_engineer = Engineer('John')
 my_square = LandSquare(5)

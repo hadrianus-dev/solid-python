@@ -1,5 +1,5 @@
 from typing import Type
-from .interfaces.shape import IShape
+from interfaces.shape import IShape
 
 class Engineer:
     def __init__(self, name: str) -> None:
